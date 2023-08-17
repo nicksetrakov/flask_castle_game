@@ -1,0 +1,5 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2> Готовы отправиться в полное опасностей приключение? </h2>
+    <a href="{{ url_for('game', current_room='Подземелье') }}"> <button type="button" class="btn btn-success">Принять испытания</button> </a>
+{% endblock %}
